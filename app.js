@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const dotenv = require('dotenv');
 const exphbs = require('express-handlebars');
-dotenv.config({path: './configs/main.env'});
+dotenv.config({path: 'main.env'});
 
 const PORT = process.env.PORT;
 
